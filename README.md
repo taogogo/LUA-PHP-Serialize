@@ -1,4 +1,5 @@
 * Demo
+```
 --------- test.lua -------------
 require 'PHPSerialize'
 
@@ -12,7 +13,7 @@ print (ll)
 x=P:unserialize(ll)
 print('X='..type(x))
 for k,v in pairs(x) do print(k,v) end
-
+```
 
 
 * source link
